@@ -1,0 +1,10 @@
+<h1>Juice Factories</h1>
+
+<ul *ngIf="juices">
+    <li *ngFor="let juice of juices">
+        <p class="name">{{ juice.name}}</p>
+        <p class="country">{{ juice.country}}</p>
+        <a href="{{ juice.website_url }}" class="site">site</a>
+    </li>
+
+</ul>
